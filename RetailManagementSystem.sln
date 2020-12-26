@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.1145
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{F4ED1D5D-E6CA-49A2-ADBA-B8A09272DF99}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RetailDataManager", "RetailDataManager\RetailDataManager.csproj", "{26A1E0F6-8516-404A-AA72-7E622AF7E310}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{F4ED1D5D-E6CA-49A2-ADBA-B8A09272DF99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F4ED1D5D-E6CA-49A2-ADBA-B8A09272DF99}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F4ED1D5D-E6CA-49A2-ADBA-B8A09272DF99}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F4ED1D5D-E6CA-49A2-ADBA-B8A09272DF99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26A1E0F6-8516-404A-AA72-7E622AF7E310}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26A1E0F6-8516-404A-AA72-7E622AF7E310}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26A1E0F6-8516-404A-AA72-7E622AF7E310}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26A1E0F6-8516-404A-AA72-7E622AF7E310}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
