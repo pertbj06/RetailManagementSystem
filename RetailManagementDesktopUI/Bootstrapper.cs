@@ -1,4 +1,5 @@
 ﻿using Caliburn.Micro;
+using RetailManagementDesktopUI.Helpers;
 using RetailManagementDesktopUI.ViewModels;
 using System;
 using System.Collections.Generic;
@@ -29,7 +30,8 @@ namespace RetailManagementDesktopUI
 
             _container
                 .Singleton<IWindowManager, WindowManager>()
-                .Singleton<IEventAggregator, EventAggregator>();
+                .Singleton<IEventAggregator, EventAggregator>()
+                .Singleton<IAPIHelper, APIHelper>();
 
             //Automaticly register all view models as we add more
             GetType().Assembly.GetTypes()
